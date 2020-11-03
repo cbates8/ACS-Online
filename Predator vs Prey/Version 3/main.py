@@ -21,7 +21,7 @@ while predator.distance_to(prey) > predator_step:
   predator.go(prey, t)
   t = t + 1
 
-print t
+print (t)
 
 # Following code prevents graphics window from closing automatically when the program completes
 import turtle

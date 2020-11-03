@@ -26,7 +26,7 @@ while predator.distance_to(prey) > predator.get_step():
   prey.make_circle(predator)
 end_time = time.time()
 total_time = end_time - start_time
-print 'Chase time was %s seconds' % (round(total_time, 3))
+print ('Chase time was %s seconds' % (round(total_time, 3)))
 
 # Following code prevents graphics window from closing automatically when the program completes
 import turtle
