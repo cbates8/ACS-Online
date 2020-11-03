@@ -31,7 +31,7 @@ class Superturtle():
 
   def distance_to(self, other_st):
     self.__distances.append((((other_st.__turtle.xcor() - self.__turtle.xcor())**2) + ((other_st.__turtle.ycor() - self.__turtle.ycor())**2)) ** 0.5)
-    print self.__distances[-1]
+    print (self.__distances[-1])
     return self.__distances[-1]
 
   def move_forward(self):
