@@ -31,16 +31,14 @@ class Maze:
     window_height = 400
     screen.setup(width=window_width, height=window_height)
 
-    #self.square_size = 0.7 * min(maze_drawer.window_width(), maze_drawer.window_height()) / max(columns, rows)
     self.square_size = 0.7 * min(window_width, window_height) / max(columns, rows)
+
     maze_drawer.setheading(0)
     maze_drawer.speed(10)
     maze_drawer.clear()
     maze_drawer.penup()
     
-    #self.init_x = -maze_drawer.window_width() * 0.35
     self.init_x = -window_width * 0.35
-    #self.init_y = maze_drawer.window_height() * 0.35
     self.init_y = window_height * 0.35
     
     x = self.init_x
@@ -56,9 +54,7 @@ class Maze:
       y = y - self.square_size
       maze_drawer.goto(x, y)
       
-    #x = -maze_drawer.window_width() * 0.35
     x = -window_width * 0.35
-    #y = maze_drawer.window_height() * 0.35
     y = window_height * 0.35
     maze_drawer.goto(x, y)
     
