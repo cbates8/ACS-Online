@@ -1,6 +1,6 @@
 # Maze Definition - Recursion
 
-### This project uses the principlals of recursion to define and solve a randomized maze.
+### This project uses the principles of recursion to define and solve a randomized maze.
 
 This program recursively generates a random maze. The turtle object will then use a recursive algorithm to search the maze for the goal object. Once found, the turtle will take the shortest path from the starting cell to the goal.
 
